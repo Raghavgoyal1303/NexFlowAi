@@ -14,7 +14,7 @@ import {
   Mic
 } from 'lucide-react';
 import { cn } from '../../utils/cn';
-import { TalkToAI } from '../TalkToAI';
+
 import { openCalendly, CALENDLY_URLS } from '../../utils/calendly';
 
 // --- Shared Constants ---
@@ -360,7 +360,7 @@ export default function TeamPage() {
       <AboutExpertise />
       <JourneyMilestones />
       <WhatToExpect />
-      <TalkToAI />
+
     </div>
   );
 }
