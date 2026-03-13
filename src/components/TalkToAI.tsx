@@ -192,7 +192,6 @@ export function TalkToAI() {
     container.id = 'cb-root';
     container.innerHTML = `
       <div id="cb-greeting">
-        <div id="cb-greeting-sub">tap to chat 👇</div>
         <div id="cb-greeting-bubble">
           <div id="cb-greeting-text">Hi! <span>Let's talk..</span> 👋</div>
         </div>
