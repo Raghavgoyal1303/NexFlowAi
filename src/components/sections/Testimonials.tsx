@@ -87,7 +87,10 @@ export function Testimonials() {
             <span className="font-sans text-sm text-muted">A/B tested against human reps</span>
           </div>
 
-          <button className="group relative flex w-full max-w-2xl items-center justify-center gap-3 rounded-full border-[1.5px] border-purple-mid bg-transparent py-5 font-sans text-lg font-bold text-white shadow-[0_0_24px_rgba(147,51,234,0.3)] hover:shadow-[0_0_40px_rgba(147,51,234,0.6)] transition-all duration-300 hover:scale-[1.02]">
+          <button 
+            onClick={() => openCalendly(CALENDLY_URLS.discovery)}
+            className="group relative flex w-full max-w-2xl items-center justify-center gap-3 rounded-full border-[1.5px] border-purple-mid bg-transparent py-5 font-sans text-lg font-bold text-white shadow-[0_0_24px_rgba(147,51,234,0.3)] hover:shadow-[0_0_40px_rgba(147,51,234,0.6)] transition-all duration-300 hover:scale-[1.02]"
+          >
             <PhoneCall className="h-5 w-5" />
             Get This For Your Business &rarr;
           </button>

@@ -10,7 +10,7 @@ export function RobotBanner() {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="relative flex flex-col overflow-hidden rounded-[16px] border border-[rgba(255,255,255,0.06)] bg-[#0d0d1a] items-center text-center py-20 px-10 shadow-[0_0_80px_rgba(147,51,234,0.1)]"
+          className="relative flex flex-col overflow-hidden rounded-[16px] border border-[rgba(255,255,255,0.06)] bg-[#0d0d1a] items-center text-center py-10 px-6 md:py-20 md:px-10 shadow-[0_0_80px_rgba(147,51,234,0.1)]"
         >
           {/* Radial Glow Blob */}
           <div className="absolute left-1/2 top-1/2 h-[400px] w-[600px] -translate-y-1/2 -translate-x-1/2 rounded-full bg-purple-glow blur-[100px] pointer-events-none opacity-40"></div>

@@ -255,10 +255,16 @@ function ReadyToStart() {
         </p>
         
         <div className="flex flex-wrap items-center justify-center gap-6">
-          <button className="rounded-full bg-purple px-10 py-5 font-sans font-bold text-white shadow-xl shadow-purple/20 transition-all hover:scale-105 hover:bg-purple-mid">
+          <button 
+            onClick={() => openCalendly(CALENDLY_URLS.discovery)}
+            className="rounded-full bg-purple px-10 py-5 font-sans font-bold text-white shadow-xl shadow-purple/20 transition-all hover:scale-105 hover:bg-purple-mid"
+          >
             Book Your Discovery Call &rarr;
           </button>
-          <button className="rounded-full border border-purple-light/40 px-10 py-5 font-sans font-bold text-purple-light transition-all hover:bg-purple/5">
+          <button 
+            onClick={() => openCalendly(CALENDLY_URLS.deepdive)}
+            className="rounded-full border border-purple-light/40 px-10 py-5 font-sans font-bold text-purple-light transition-all hover:bg-purple/5"
+          >
             $250 Deep-Dive with Raghav
           </button>
         </div>
